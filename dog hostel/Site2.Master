@@ -1,0 +1,120 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="dog_hostel.Site2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server">
+        </asp:ContentPlaceHolder>
+      </title>
+    <link href="" rel="stylesheet" type="text/css" />
+    <style type="text/css" >
+    .menu ul li
+{
+    float:left;
+    display:block;
+    list-style:none;
+    border-right: 1px solid rgb(10,85,125);
+    border-left:1px solid rgb(67,153,200);
+}
+
+.menu ul li a
+{
+    font-size:13px;
+    font-weight:bold;
+    line-height: 40px;
+    padding: 8px 20px;
+    color: rgb(255,255,255);
+    text-decoration:none;
+}
+.menu ul li:hover
+{
+    background-color: rgb(14,79,114);
+    border-right: 1px solid rgb(14,89,130);
+}
+.menu
+{
+    background-color:rgb(10,110,178);
+    width:100%;
+    margin: 0px 0px 10px;
+    padding: 0px;
+    height: 40px;
+    color: rgb(243,243,243);
+   
+}
+.footer
+{
+    height: 41px;
+    background-color: rgb(10,110,178);
+    color:rgb(255,255,255);
+            width: 947px;
+        }
+.navitem_s
+{
+    float: left;
+    border-right: 1px solid rgb(10,85,125);
+    border-left: 1px solid rgb(67,153,200);
+    height:40px;
+    background-color: rgb(14,79,114);
+}
+body
+{
+    background-color: rgb(237,237,237);
+    font-family: "Arial",Helvetica,sans-serif;
+    font-size:12px;
+}
+
+.wrapper
+{
+    width: 950px;
+    margin: auto;
+}
+.content
+{
+    width:100%;
+    background-color:rgb(254,254,254);
+    border:1px solid rgb(224,224,224);
+    float: left;
+    margin-top:8px;
+    margin-bottom:8px;
+    min-height:400px;    
+}
+
+
+
+
+</style>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+     <form id="form2" runat="server">
+    <div class="wrapper">
+    <div class="menu">
+    <ul>
+    <li class="navigation_first_item"><a href="">Home</a></li>
+    <li><a href="WebForm3.aspx">Check Availability</a></li>
+    <li><a href="WebForm2.aspx">FeedBack</a></li>
+    <li><a href="Default3.aspx">About Us</a></li>
+    
+    </ul>
+    </div>
+    <div class="clear"></div>
+    <div class="content">
+        <asp:ContentPlaceHolder id="contentBody" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+         <div class="clear"></div>
+         <div class="footer">
+             <h4 align="center" 
+                 
+                 
+                 style="padding: 10px 0px 0px 0px; font-weight: bold; color: #FFFFFF; height: 32px; width: 948px;">Copyright@xyz.com</h4>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server">
+        </asp:ContentPlaceHolder>
+      </title>
+    <link href="Styles/main.css" rel="stylesheet" type="text/css" />
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="wrapper">
+    <div class="menu">
+    <ul>
+    <li class="navigation_first_item"><a href="Default2.aspx">Home</a></li>
+    <li><a href="#">Check Availability</a></li>
+    <li><a href="#">FeedBack</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Contact Us</a></li> 
+    </ul>
+    </div>
+    <div class="clear"></div>
+    <div class="content">
+        <asp:ContentPlaceHolder id="contentBody" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+         <div class="clear"></div>
+         <div class="footer">
+         <h4>Copyright@xyz.com</h4>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

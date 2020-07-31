@@ -1,0 +1,5 @@
+C:\Users\Lenovo\documents\visual studio 2010\Projects\dog hostel\dog hostel\bin\dog hostel.dll
+C:\Users\Lenovo\documents\visual studio 2010\Projects\dog hostel\dog hostel\bin\dog hostel.pdb
+C:\Users\Lenovo\documents\visual studio 2010\Projects\dog hostel\dog hostel\obj\Debug\dog hostel.dll
+C:\Users\Lenovo\documents\visual studio 2010\Projects\dog hostel\dog hostel\obj\Debug\dog hostel.pdb
+C:\Users\Lenovo\documents\visual studio 2010\Projects\dog hostel\dog hostel\obj\Debug\dog hostel.csprojResolveAssemblyReference.cache
